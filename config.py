@@ -1,2 +1,2 @@
 MODEL_NAME = 'google/mt5-base'
-SAVE_DIRECTORY = 'model/mt5_model_base'
+SAVE_DIRECTORY = 'models/mt5_model_base'
