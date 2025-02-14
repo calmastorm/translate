@@ -2,7 +2,7 @@ from transformers import MT5Tokenizer, MT5ForConditionalGeneration
 import os
 from config import *
 
-def download(model_name=MODEL_NAME, save_directory=SAVE_DIRECTORY):
+def download(model_name=PRETRAINED_MODEL_NAME, save_directory=PRETRAINED_SAVE_DIRECTORY):
     print(f'Downloading {model_name} to {save_directory}')
 
     os.makedirs(save_directory, exist_ok=True)
